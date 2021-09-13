@@ -1,0 +1,50 @@
+.Sidebar {
+  grid-area: menu;
+  margin-top: 82px;
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.247);
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    -45deg,
+    rgba(123, 134, 134, 0.479),
+    #0000008c,
+    #928f8f8c,
+    #23d5ab
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.Sidebar-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.Link {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  transition: 300ms ease-in-out;
+}
+
+.Link:hover {
+  text-decoration: underline;
+  outline: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,38 @@
+:root {
+  --color-a: #282c34;
+  --white: red;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  background-color: var(--color-a);
+  min-height: 100vh;
+  grid-template-areas:
+    "header header"
+    "menu main";
+  grid-template-columns: 200px auto;
+  grid-template-rows: 82px auto;
+  background-image: url("./bg-pexels.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-height: 50px;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.445);
+  backdrop-filter: blur(10px);
+  grid-area: header;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 82px;
+}

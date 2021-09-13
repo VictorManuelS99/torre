@@ -1,0 +1,86 @@
+.Job {
+  background-color: rgba(2, 26, 24, 0.171);
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 0px 5px -1px rgb(37, 37, 37);
+  width: 535px;
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.Job-time {
+  margin: 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.Job-time p {
+  margin: 0;
+  font-size: 13px;
+}
+.Job h3 {
+  margin-bottom: 0;
+  color: white;
+}
+
+.Job h4 {
+  margin: 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.61);
+}
+
+.Job-remote {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: rgba(255, 255, 255, 0.644);
+  gap: 0.25rem;
+}
+
+.Job-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Job-compensation {
+  text-align: left;
+  color: rgb(106, 255, 106);
+  margin: 0;
+}
+
+.Job-skills {
+  list-style: none;
+  text-align: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Job-skill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Job-skill p {
+  margin: 0;
+}
+
+.Job-questions {
+  all: unset;
+  text-decoration: underline;
+  color: azure;
+}
+
+.Job-questions:hover{
+    cursor: pointer;
+}
+
+.Job-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.66rem;
+}

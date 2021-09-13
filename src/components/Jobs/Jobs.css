@@ -1,0 +1,7 @@
+.Jobs {
+  padding-top: 1rem;
+  display: grid; 
+  gap: 1rem;
+  grid-area: main;
+  place-items: center;
+}

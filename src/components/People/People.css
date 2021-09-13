@@ -1,0 +1,7 @@
+.People {
+  padding-top: 1rem;
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  grid-area: main;
+}
